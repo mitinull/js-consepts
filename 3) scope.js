@@ -10,13 +10,18 @@ until the variable's declaration is executed.`;
 // Types of Scope in JavaScript
 `
 Global Scope
+Script Scope
+Module Scope
 Local Scope (Function Scope)
 Block Scope
 Lexical Scope (Static Scope)
 `;
 
 // Global Scope
-let global = "I'm global!🌐";
+var global = "I'm global!🌐";
+
+// Script / Module Scope
+let global2 = "I'm global!🌐";
 
 // Local Scope (Function Scope)
 function localScope() {
